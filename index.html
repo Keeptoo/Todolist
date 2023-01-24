@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculateur</title>
+    <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Todolist</h1>
+        <hr>
+    </header>
+    <main>
+        <div class="container">
+            <h2>Mes listes</h2>
+            <hr>
+            <form action="get">
+                <label for="text">Ma Tâche:</label>
+                <input type="text" id="stain">
+                <label for="textarea">Mes détails de Tâche:</label>
+                <textarea name="textarea" id="staindetails"></textarea>
+                <input type="button" value="Valider" id="button" onclick="Todo()"><!--onclick me permet de dire que au moment ou mon bouton sera cliquer alors j'appelerai la function Todo-->
+            </form>
+            <article id="list">
+                <h3>Mes listes</h3>
+            </article>
+            <div id="container">
+
+            </div>
+    </main>
+    <script src="/assets/js/main.js"></script>
+</body>
+
+</html>
